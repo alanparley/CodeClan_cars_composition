@@ -38,5 +38,9 @@ public class CarTest {
         assertEquals(4, car.getTyres().size());
     }
 
+    @Test
+    public void canRefuel(){
+        assertEquals("Filling up 12%.", car.refuel(12));
+    }
 
 }
